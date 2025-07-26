@@ -145,7 +145,7 @@ npm run build
 sdb connect <TV IP>
 tizen build-web -e ".*" -e "node_modules/*" -e "package*.json" -e "yarn.lock"
 tizen package -t wgt -o ./release -- .buildResult
-tizen install -n ./release/TizenBrewStandalone.wgt
+tizen install -n ./release/TizenBrewNextGeneration.wgt
 ```
 
 Note that tizen is in `C:\tizen-studio\tools\ide\bin` on Windows and in `~/tizen-studio/tools/ide/bin` on Linux. Add it to your PATH or run it using `C:\tizen-studio\tools\ide\bin\tizen` on Windows and `~/tizen-studio/tools/ide/bin/tizen` on Linux. sdb is in `C:\tizen-studio\tools` on Windows and in `~/tizen-studio/tools` on Linux. Do the same for sdb as you did for tizen.
